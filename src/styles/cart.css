@@ -1,0 +1,87 @@
+
+  .selected-products-container{
+ position: absolute;
+ 
+display: flex;
+margin-left: 65%;
+left: 6%;
+top:11%
+  }
+  
+  
+  #products1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+ 
+  #products1 td, #products1 th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  #products1 tr:nth-child(even){background-color: #f2f2f2;}
+  
+  
+  #products1 tr:hover {background-color: #ddd;}
+  
+  
+  #products1 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .toppings-list-item{
+    background-color:red;
+    color: white;
+  }
+  .header-container{
+    background-color:black;
+    color:rgb(13, 19, 13);
+    display:flex;
+    flex-direction: column;
+    left: 6%;
+  
+  }
+  .header{
+    background-color:whitesmoke;
+    text-align: center;
+    color: black;
+  }
+  
+.balance-container{
+  padding-top: 8px;
+  background-color: #04AA6D;
+    color: white;
+}
+.balance{
+  background-color: blue;
+  color: white;
+}
+.remove-btn{
+  background-color: rgb(230, 78, 78);
+  color:white;
+  border-radius: 5px;
+}
+.remove-btn:hover{
+  background-color: red;
+  color:white;
+  border-radius: 5px;
+}
+.btns{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-add{
+padding: 7px;
+display: flex;
+
+}
+.btn-sub{
+  padding: 7px;
+}
